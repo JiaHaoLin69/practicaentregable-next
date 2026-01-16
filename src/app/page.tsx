@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import InfoCard from '@/components/InfoCard';
 import Sidebar from '@/components/Sidebar';
 import FooterAddress from '@/components/Footer';
-import BootstrapCard from '@/components/BootstrapCard';
+
 
 export default function Home() {
   return (
@@ -14,8 +14,16 @@ export default function Home() {
 
       <div className={styles.contentWrapper}>
         <div className={styles.mainColumn}>
-          <BootstrapCard />
-          <BootstrapCard />
+          <InfoCard
+            title="Almería"
+            description="Tierra de alumnos de ASIR y DAW"
+            imageSrc="/portada-almeria-1-scaled.webp"
+          />
+          <InfoCard
+            title="Algo"
+            description="Algo pa decir"
+            imageSrc="/biblioWeb.png"
+          />
         </div>
 
         <div className={styles.sidebarColumn}>

@@ -21,7 +21,6 @@ export default async function DynamicPage({ params }: { params: Promise<{ slug: 
         notFound();
     }
 
-    // Render the Custom Error Layout (layout preserved)
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: '#f0f2f5' }}>
             <Header />
