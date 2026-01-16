@@ -6,7 +6,7 @@ interface InfoCardProps {
     subtitle?: string;
     description?: string;
     imageText?: string;
-    imageSrc?: string; // New prop
+    imageSrc?: string;
     className?: string;
     icon?: React.ReactNode;
 }
