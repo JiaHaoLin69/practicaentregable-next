@@ -1,0 +1,28 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.widget {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.imageContainer,
+.videoContainer {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.sidebarImage {
+    display: block;
+}
+
+.videoFrame {
+    display: block;
+    aspect-ratio: 16/9;
+}
