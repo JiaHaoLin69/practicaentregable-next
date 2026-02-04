@@ -9,13 +9,14 @@ export function generateStaticParams() {
         { slug: 'noticias' },
         { slug: 'oferta-educativa' },
         { slug: 'contacto' },
+        { slug: 'FP del centro' },
     ];
 }
 
 export default async function DynamicPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
 
-    const validCustomErrorRoutes = ['noticias', 'oferta-educativa', 'contacto'];
+    const validCustomErrorRoutes = ['noticias', 'oferta-educativa', 'contacto', 'FP del centro'];
 
     if (!validCustomErrorRoutes.includes(slug)) {
         notFound();

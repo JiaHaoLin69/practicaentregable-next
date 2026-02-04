@@ -16,12 +16,10 @@
 
 .mainColumn {
   flex: 2;
-  /* Takes about 66% width */
 }
 
 .sidebarColumn {
   flex: 1;
-  /* Takes about 33% width */
 }
 
 @media (max-width: 768px) {
