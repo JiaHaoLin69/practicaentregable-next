@@ -6,7 +6,7 @@ import FooterAddress from '@/components/Footer';
 
 
 // Página de Biblioteca: Muestra recursos o enlaces relacionados con la biblioteca
-export default function BibliotecaPage() {
+export default function noticiaspage() {
     return (
         <main className={styles.main}>
             {/* Cabecera y Navegación comunes */}
@@ -16,7 +16,7 @@ export default function BibliotecaPage() {
             {/* Contenido principal centrado */}
             <div className={styles.contentWrapper} style={{ justifyContent: 'center' }}>
                 <div style={{ maxWidth: '600px', width: '100%' }}>
-                    <h1 style={{ margin: '20px 0', textAlign: 'center' }}>Biblioteca Escolar</h1>
+                    <h1 style={{ margin: '20px 0', textAlign: 'center' }}>Noticias Escolar</h1>
 
                     {/* Lista de tarjetas informativas (InfoCards) */}
                     <InfoCard
